@@ -1,4 +1,4 @@
-#Bash learnings
+# Bash learnings
 
-[Docker](./docker.md)
-[Shell Tricks](./shelltricks.md)
+- [Docker](./docker.md)
+- [Shell Tricks](./shelltricks.md)
