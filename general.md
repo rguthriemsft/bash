@@ -29,12 +29,12 @@ od -An -N4 -i < /dev/urandom
 #### Random alphanumeric string in bash (issues on MAc)
 
 ```Bash
-
-
-random-string() {
+random_string() {
         # $1 The length of string to return
         echo $(head -30 /dev/urandom  | LC_CTYPE=c tr -dc 'a-z0-9' | fold -w $1 | head -n 1)
 }
+
+random_string 5
 ```
 
 [source](https://www.saotn.org/bash-function-to-generate-a-random-alphanumeric-string/)
