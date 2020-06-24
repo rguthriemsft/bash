@@ -42,3 +42,7 @@ random_string 5
 #### Tutorial on getopts
 
 [source](https://www.shellscript.sh/tips/getopts/)
+
+#### Bash if conditional
+
+[source](https://www.shell-tips.com/bash/how-to-script-powerful-bash-if-statement/)
