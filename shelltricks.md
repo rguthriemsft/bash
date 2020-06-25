@@ -23,7 +23,7 @@ _information() {
 
 # Print success message in green
 _success() {
-  printf "\e[32m$@\n\e[0m"
+  printf "\e[32mSUCCESS: $@\n\e[0m"
 }
 ```
 
